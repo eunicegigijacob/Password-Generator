@@ -12,13 +12,15 @@ body {
 .heading {
     font-family: 'Inter', sans-serif;
     color: #4ADF86;
-    width: 354px;
+    width: 380px;
     height: 80px;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.025em;
+    margin-bottom: 5px;
+    margin-top: 115px;
 }
 
 .heading > span {
@@ -29,7 +31,7 @@ body {
 .support-text {
     width: 372px;
     height: 28px;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 51px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -51,6 +53,7 @@ body {
 
 .line {
     margin-top: 40px;
+    margin-bottom: 35px;
     width: 446px;
     height: 0px;
     left: 52px;
@@ -60,14 +63,18 @@ body {
 
 .display-section {
     display: flex;
+    margin: 79px 0 0 0;
 } 
 
-.rectangle {
+.rectangle1, .rectangle2 {
     width: 211px;
     height: 39px;
     left: 52px;
     top: 396px;
     background: #273549;
     border-radius: 6px;
+}
 
+.rectangle2 {
+    margin: 0 24px;
 }
