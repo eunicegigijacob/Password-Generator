@@ -1,2 +1,2 @@
-# Password Generator
- generates random passwords 
+A password generator app built as part of the solo projects at Scrimba's Frontend developer career path.
+it's aim is to demonstrate knowledge of html, css and javascript in building interractive web pages.
