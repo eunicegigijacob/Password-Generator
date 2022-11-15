@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Karla:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Karla:wght@800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
-        <h1 class="heading"><span> Generate a</span>  random password</h1>
+        <div id="themes">
+            <label for="theme">Select Theme:</label>
+            <select name="theme" id="theme-options">
+                <option value="dark">Dark mode</option>
+                <option value="light">Light mode</option>
+            </select>
+        </div>
+
+        <h1 class="heading"><span> Generate a</span> random password</h1>
         <p class="support-text">Never use an insecure password again.</p>
 
         <button class="btn" id="gen-btn">Generate passwords</button>
 
-        <input type="text"  id="length-input" placeholder="Set Password length">
-        
+        <input type="text" id="length-input" placeholder="Set Password length">
+
         <div class="line"></div>
         <div class="display-section">
             <div class="rectangle1" id="first-password"></div>
@@ -27,4 +38,5 @@
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
